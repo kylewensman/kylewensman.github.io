@@ -39,6 +39,9 @@ body {
   overflow: auto;
   background-color: white;
 }
+.col2 p{
+  font-size: 1.2em
+}
 .col2 #page_title{
   margin-top: 25px;
   text-align: center;
