@@ -1,5 +1,6 @@
 body{
     margin: auto;
+    background-color: white;
 }
 h2{
     margin: 0;
@@ -8,18 +9,19 @@ h2{
 /* Start - Styles for header */
 /* Start - Styles for nav */
 header{
-    background-color: #829cd0}
+    background-color:#829cd0;
+}
 header img{
     margin: auto;
     display: block;
-    width: 50%;
+    width: 35%;
     height: auto;
 }
 #nav_menu{
     width: calc(100% - 255px);
     height: 70px;
-    float: right;
     padding-top: 15px;
+    margin-left: 40%;
 }
 #nav_menu ul{
     width: 100%;
@@ -35,7 +37,7 @@ header img{
     color: black;
     text-decoration: none;
     padding: 20px;
-    background-color: thistle;
+    background-color: rgb(29, 187, 111);
 }
 #nav_menu ul li a:hover{
     color: blue;
@@ -43,9 +45,26 @@ header img{
 #mobile_menu{
 	display: none;
 }
+
 /* End - Styles for nav */
 /* End - Styles for header */
 
+main{
+    margin: auto;
+    display: block;
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+}
+#about{
+    background:#F0CCA5;
+    padding: 5px;
+}
+#about img{
+    width: 200px;
+    height: 300px;
+    float:left;
+}
 @media only screen and (max-width: 1238px) {
 	#nav_menu{
 		display: none;
@@ -59,5 +78,32 @@ header img{
     header img{
         width: 75%;
     }
+    main{
+       width: 100%;
+    }
 }
-
+@media only screen and (max-width: 550px) {
+    #nav_menu{
+		display: none;
+	}
+	#mobile_menu{
+        display: block;
+    }
+	body{
+		font-size: 90%;
+    }
+    header img{
+        width: 75%;
+    }
+    main{
+       width: 100%; 
+    }
+    #about img{
+        width: 50%;
+        height: auto;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
