@@ -1,0 +1,14 @@
+/*images on bottom page*/
+#inside{
+    width: 30%;
+    height: auto;
+    position: relative;
+    margin-bottom: 8px;
+}
+#Customer{
+    width: 25%;
+    height: auto;
+    position: relative;
+    margin-bottom: 8px;
+    margin-left: 40%;
+}

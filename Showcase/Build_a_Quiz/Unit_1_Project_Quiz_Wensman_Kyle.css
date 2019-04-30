@@ -1,0 +1,56 @@
+body{
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #fff; /*http://lea.verou.me/css3patterns/#lined-paper*/ /*by Sarah Backhouse*/
+    background-image:
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+#mainDiv{
+    height: 16em;
+    text-align: left;
+    padding: 8px;
+    background-color:#E5E5E5;
+}
+input[type="button"]{
+    margin: 15px;
+    width: 50%;
+}
+input[type="text"]{
+    margin-top: 10px;
+}
+.hide{
+    display: none;
+}
+p{
+    margin: 0px;
+}
+/* Mobile portrait */
+@media only screen and (max-width: 479px){
+    body{
+        width: 100%;
+    }
+}
+/* High Res computer */
+@media only screen and (min-width: 1700px){
+    body{
+        width: 60%;
+        font-size: 1.3em;
+    }
+    #mainDiv{
+        height: 15em;
+        font-size: 1.4em;
+    }
+    input[type="button"]{
+        font-size: 1.1em;
+    }
+    input[type="text"]{
+        font-size: 1em;
+    }
+    select{
+        font-size: .8em;
+        padding-right: 25px;
+    }
+}

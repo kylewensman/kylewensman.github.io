@@ -1,0 +1,10 @@
+/* Start - Styles for main */
+#content p{
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,28 @@
+#content{
+    padding-top: 15px;
+    margin-left: 50px;
+    width: calc(100% - 50px);
+    height: auto;
+    
+}
+#colums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h4{
+    margin-bottom: 0;
+}
+#yogurtcup{
+    width: 25%;
+    height: auto;
+    margin-left: 400px;
+    position: absolute;
+    max-width: 300px;
+    max-height: 300px;
+}
+#yogurtTopp{
+    width: 30%;
+    height: auto;
+    margin-left: 55%;
+    position: absolute;
+}

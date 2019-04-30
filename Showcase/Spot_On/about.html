@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpotOn Yogurt | The Yummy Spot</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/Template.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({
+				prependTo:"#mobile_menu"});
+		});
+	</script>
+    
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/spotonlogo.png" alt=""></a>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flavors.html">Flavors</a>
+                    <ul>
+                        <li><a href="flavors.html#currentFlavors">Current Flavors</a></li>
+                        <li><a href="flavors.html#yoFlav">Yogurt Flavors</a></li>
+                        <li><a href="flavors.html#topp">Toppings</a></li>  
+                        <li><a href="flavors.html#nutr">nutrition</a></li>     
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="background">
+
+        </div>
+        <div id="content">
+            <h2 id="pagetitle">About</h2>
+            <p>Spot On Yogurt is the area's first self serve frozen yogurt bar. It is specifically designed with the customer in mind. As the customer it is all about the freedom of choice. You pick and dispense the frozen yogurt and choose from over 40 toppings that range from granola to gummy bears. It is completely up to you - make as much or as little as you like!
+
+            Spot On Yogurt is owned by Matt and Karolen La Rose. Karolen and Matt along with their two children, Ty (5) and Lauren (3) recently moved back to the LC Valley from Sacramento to raise their children and start Spot On Yogurt. 
+
+            Matt is from San Jose, California and has spent the past 16 years in events, entertainment and facility operations for professional and collegiate sports. He started his career at Arizona State University and recently worked at the VP of Operations and Events for the Sacramento River Cats (triple A of the Oakland A's). Early in his career he worked NFL Arizona Cardinal games, Fiesta Bowls and concerts such as U2 and Pink Floyd. More recently he booked shows with acts like Dave Matthew's Band, Lynyrd Skynyrd and the Black Eyed Peas and helped orchestrated the 2005 Triple A All Star game. 
+
+            Karolen (formerly Overberg) has been working in the sports, event management and non-profit sectors in sales, marketing, events, community relations and product development. She is a 1997 graduate of Lewiston High School and a 2001 graduate of Washington State University. 
+
+            We hope that we will have the opportunity to earn your business. We are committed to delicious yogurt, great service and fun atmosphere. Please stop by and visit us! We are right next door to Hastings.</p>
+        <img id="inside" src="images/inside.jpg" alt="picture of the inside of the shop">
+        <img id="Customer" src="images/Customer_Yogurt.jpg" alt="picture taken by a customer that is holding a cup of yogurt">
+    </div>
+    </main>
+
+    <footer>
+        <p>Made by Kyle Wensman</p>
+    </footer>
+</body>
+</html>

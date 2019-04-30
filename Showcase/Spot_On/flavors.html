@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpotOn Yogurt | The Yummy Spot</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/Template.css">
+    <link rel="stylesheet" href="styles/flavors.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({
+				prependTo:"#mobile_menu"});
+		});
+	</script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/spotonlogo.png" alt=""></a>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flavors.html">Flavors</a>
+                    <ul>
+                        <li><a href="flavors.html#currentFlavors">Current Flavors</a></li>
+                        <li><a href="flavors.html#yoFlav">Yogurt Flavors</a></li>
+                        <li><a href="flavors.html#topp">Toppings</a></li>  
+                        <li><a href="flavors.html#nutr">nutrition</a></li>     
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="background">
+
+        </div>
+        <div id="content">
+            <h2 id="pagetitle">Flavors</h2>
+            <div>
+                <img id="yogurtcup" src="images/Cup_With_Yogurt.jpg" alt="cup with in it yogurt"></a>
+                <h2 id="currentFlavors">Current Flavors</h2>
+                    <ul>  
+                        <li>French Vanilla</li>
+                        <li>Classic Chocolate</li>
+                        <li>No Sugar Added Strawberry Banana</li>
+                        <li>Very Berry Sorbet</li>
+                        <li>White Chocolate Mousse</li>
+                        <li>Cake Batter</li>
+                    </ul>
+            </div>
+            <div>
+                <h2 id="yoFlav">Yogurt Flavors</h2>
+                <ul id="colums">
+                    <li>Alpine Vanilla (NF)</li>
+                    <li>Angel Food Cake (NF)</li>
+                    <li>Apple Pie (NF)</li>
+                    <li>Blueberry Burst (NF)</li>
+                    <li>Bubble Gum (NF)</li>
+                    <li>Cable Car Chocolate (NF)</li>    
+                    <li>Cappuccino (NF)</li>
+                    <li>Cake Batter (LF)</li>
+                    <li>Chocolate (NSA)</li>
+                    <li>Chocolate Classic (NF)</li>
+                    <li>Cookies & Cream (NF)</li>
+                    <li>Country Vanilla (NF)</li>
+                    <li>Creamy Mint Cookies (NF)</li>
+                    <li>Dulce De Leche (Caramel) (LF)</li>
+                    <li>Eggnog (NF)</li>
+                    <li>French Toast (NF)</li>
+                    <li>French Vanilla (LF)</li>
+                    <li>Fruit Punch Sorbet (ND)</li>
+                    <li>Georgia Peach (NF)</li>
+                    <li>Huckleberry (NF)</li>
+                    <li>Hershey’s Heath Toffee (LF)</li>
+                    <li>Irish Mint (NF)</li>
+                    <li>Island Banana (NF)</li>
+                    <li>Kiwi Strawberry Sorbet (ND)</li>
+                    <li>Luscious Lemon (NF)</li>
+                    <li>Mango Tango Sorbet (ND)</li>
+                    <li>Maple Bacon Doughnut (NF)</li>
+                    <li>Mountain Blackberry (NF)</li>
+                    <li>New York Cheesecake (NF)</li>
+                    <li>Original Tart (NF)</li>
+                    <li>Outrageous Orange (N)</li>
+                    <li>Peach Mango Tart (NF)</li>
+                    <li>Peanut Butter (LF)</li>
+                    <li>Pecan Praline (NF)</li>
+                    <li>Peppermint Stick (NF)</li>
+                    <li>Pistachio (NF)</li>
+                    <li>Pomegranate Raspberry Tart (NF)</li>
+                    <li>Pumpkin (NF)</li>
+                    <li>Red Velvet Cake (LF)</li>
+                    <li>Rootbeer Float (N)</li>
+                    <li>Snickerdoodle (NF)</li>
+                    <li>Strawberry Lemonade Sorbet (ND)</li>
+                    <li>Strawberry Banana (NSA)</li>
+                    <li>Strawberry Shortcake (LF)</li>
+                    <li>Sweet Coconut (LF)</li>
+                    <li>Very Berry Sorbet (ND)</li>
+                    <li>Very Raspberry (NF)</li>
+                    <li>Very Strawberry (NF)</li>
+                    <li>Watermelon Sorbet (ND)</li>
+                    <li>White Chocolate Macadamia (NF)</li>
+                    <li>Wild Berry Tart (NF)</li>
+                </ul>
+                <h4>AND MORE!</h4>
+            </div>
+            <div>
+                <h2 id="topp">Toppings</h2>
+                <h3>Candy & Cookie</h3>
+                <ul id="colums">
+                    <li>Brownie Bites</li>
+                    <li>Butterfinger Pieces</li>
+                    <li>Candy Corn</li>
+                    <li>Chocolate Chips</li>
+                    <li>Cookie Dough</li>
+                    <li>Animal Cookies</li>
+                    <li>Graham Cracker Crumble</li>
+                    <li>Gummie Bears</li>
+                    <li>Gummie Worms</li>
+                    <li>Heath Bar Chunks</li>
+                    <li>Marshmallows</li>
+                    <li>Peanut M&M’S</li>
+                    <li>Mike & Ikes</li>
+                    <li>Mini M&M’s</li>
+                    <li>Oreo</li>
+                    <li>Peanut Butter Cups</li>
+                    <li>Reese’s Pieces</li>
+                    <li>Sprinkles (Rainbow and Chocolate)</li>
+                    <li>Waffle Cone Pieces</li>
+                </ul>
+                <h3>Fruit & Nuts</h3>
+                <ul id="colums">
+                    <li>Blackberries</li>
+                    <li>Blueberries</li>
+                    <li>Cashews</li>
+                    <li>Cherries</li>
+                    <li>Chocolate Covered Peanuts</li>
+                    <li>Chopped Peanuts</li>
+                    <li>Chopped Walnuts</li>
+                    <li>Cinnamon Granola</li>
+                    <li>Coconut</li>
+                    <li>Peaches</li>
+                    <li>Pineapple</li>
+                    <li>Raspberries</li>
+                    <li>Sliced Almonds</li>
+                    <li>Strawberries</li>
+                </ul>
+                <img id="yogurtTopp" src="images/Toppings.jpg" alt="yogurt toppings"></a>
+                <h3>Syrups</h3>
+                <ul>
+                    <li>Hot Fudge</li>
+                    <li>Carmel</li>
+                    <li>Chocolate</li>
+                    <li>Marshmallow Cream</li>
+                </ul>
+            </div>
+            <h2 id="nutr">nutrition</h2>
+            <ul>
+                <h3>YoCream Frozen Yogurt</h3>
+                <li>Contains live and active cultures</li>
+                <li>All Nonfat and No Sugar Added flavors are low in sodium and cholesterol</li>
+                <li>Original Tart™ and EuroTart™ flavors are made with all natural flavors and no artificial colors
+                <h3>YoCream Non-Dairy Sorbet</h3>
+                <li>Made with all natural flavors and no artificial colors</li>
+                <li>No fat, sodium, or cholesterol</li>
+                <li>Contains real fruit juice</li>
+                <li>Non-dairy</li>
+                <h3>Other Benefits You’ll Love</h3>
+                <li>All YoCream frozen yogurts are compliant with the National Yogurt Association Live and Active Culture program and proudly display the LAC Seal</li>
+                <li>All YoCream products are OU-D Kosher Certified and many flavors are gluten free</li>
+            </ul>
+            <h4>Additional nutritional information is available at our stores.  Just ask our Fro Yo Pro for the nutritional guide.</h4>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made by Kyle Wensman</p>
+    </footer>
+</body>
+</html>

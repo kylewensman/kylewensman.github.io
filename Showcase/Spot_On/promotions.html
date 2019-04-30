@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpotOn Yogurt | The Yummy Spot</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/Template.css">
+    <link rel="stylesheet" href="styles/promotions.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({
+				prependTo:"#mobile_menu"});
+		});
+	</script>
+</head>
+<body>
+    <header>
+        
+        <a href="index.html"><img src="images/spotonlogo.png" alt=""></a>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flavors.html">Flavors</a>
+                    <ul>
+                        <li><a href="flavors.html#currentFlavors">Current Flavors</a></li>
+                        <li><a href="flavors.html#yoFlav">Yogurt Flavors</a></li>
+                        <li><a href="flavors.html#topp">Toppings</a></li>  
+                        <li><a href="flavors.html#nutr">nutrition</a></li>                     
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="background">
+
+        </div>
+        <div id="content">
+            <h2 id="pagetitle">Promotions</h2>
+            
+            <img id="StudentID"src="images/StudentID.jpg" alt="Student ID Promotion">
+            <p id="StudentIDpar">Come in and show your current student ID today to get a discount!</p>
+            
+            <img id="WeighWed" src="images/Weigh_it_Wednesday.jpg" alt="Weigh it Wednesday Promotion">
+            <p id="WeighWedpar">On May 16 come in and guess your yogurts weight spot on and get it for free</p>
+            
+            <img id="bogo" src="images/BOGO.png" alt="Buy one get one free Promotion">
+            <p id="bogopar">On June 1<sup>st</sup> it's Buy one get one free day (of equal or lesser value)</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made by Kyle Wensman</p>
+    </footer>
+</body>
+</html>
