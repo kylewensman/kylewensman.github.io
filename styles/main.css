@@ -97,6 +97,8 @@ section div{
 section img{
     width: 100%;
     display: block;
+    max-width: 546.672px;
+    max-height: 227.672px;
 }
 section div div{
     /* float: left; */
