@@ -14,8 +14,8 @@ header{
     background-color:#88BBC6;
 }
 header h1{
-    text-align:center;
     font-family: 'eurostile';
+    font-size: 1.3em;
 }
 header img{
     margin: auto;
@@ -77,28 +77,21 @@ header img{
     width: 95%;
     height: auto;
     margin-top: 20px;
-    font-size: 1.4em;
 }
 /* End - Styles for Home Page */
 section{
-    height: auto;
     background-color:blanchedalmond;
-}
-section div{
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1700;
+    margin: auto;
+    min-height: 350px;
 }
 
 section img{
     width: 100%;
-    display: block;
 }
-section div div{
-    /* float: left; */
-    display: inline-block;
+section div{
+    float: left;
     max-width: 400px;
-    /* padding-right: 15px; */
+    padding-right: 15px;
 }
 
 @media only screen and (max-width: 1238px) {
@@ -116,11 +109,6 @@ section div div{
     }
     #home{
        width: 100%;
-    }
-    section div{
-        display: block;
-        width: 100%;
-        margin: auto;
     }
 }
 @media only screen and (max-width: 550px) {
