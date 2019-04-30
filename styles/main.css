@@ -91,7 +91,6 @@ section{
 section div{
     display: flex;
     justify-content: space-evenly;
-    max-width: 1700px;
 }
 
 section img{
