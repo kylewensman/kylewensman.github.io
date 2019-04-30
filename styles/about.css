@@ -4,6 +4,7 @@ html, body, .col1, .col2 {
 
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 /* Two column template */
 /* https://stackoverflow.com/questions/48391369/two-column-layout-with-one-fixed-and-one-scroll */
