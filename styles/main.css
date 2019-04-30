@@ -101,8 +101,9 @@ section img{
 section div div{
     /* float: left; */
     display: inline-block;
-    max-width: 400px;
+    /* max-width: 400px; */
     width: 100%;
+    padding: 10px;
     /* padding-right: 15px; */
 }
 section div div h3{
@@ -129,6 +130,7 @@ section div div h3{
         display: block;
         width: 100%;
         margin: auto;
+        max-width: 500px;
     }
 }
 @media only screen and (max-width: 550px) {
