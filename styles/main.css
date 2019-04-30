@@ -91,7 +91,7 @@ section{
 section div{
     display: flex;
     justify-content: space-evenly;
-    max-width: 1700;
+    max-width: 1700px;
 }
 
 section img{
@@ -102,6 +102,7 @@ section div div{
     /* float: left; */
     display: inline-block;
     max-width: 400px;
+    width: 100%;
     /* padding-right: 15px; */
 }
 section div div h3{
