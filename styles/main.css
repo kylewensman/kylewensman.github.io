@@ -7,6 +7,9 @@ h2{
     margin: 0;
     text-align: center;
 }
+*{
+    box-sizing: border-box;
+}
 
 
 /* Start - Styles for header */
