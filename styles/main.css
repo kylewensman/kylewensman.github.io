@@ -84,22 +84,22 @@ header img{
     font-size: 1.4em;
 }
 /* End - Styles for Home Page */
-section{
+#showcase{
     height: auto;
     background-color:blanchedalmond;
 }
-section div{
+#showcase div{
     display: flex;
     justify-content: space-evenly;
 }
 
-section img{
+#showcase img{
     width: 100%;
     display: block;
     max-width: 546.672px;
     max-height: 227.672px;
 }
-section div div{
+#showcase div div{
     /* float: left; */
     display: inline-block;
     /* max-width: 400px; */
@@ -107,10 +107,20 @@ section div div{
     padding: 10px;
     /* padding-right: 15px; */
 }
-section div div h3{
+#showcase div div h3{
     text-align: center;
 }
-
+#contact{
+    height: auto;
+    background-color:wheat;
+}
+#contact div{
+    display:flex;
+    justify-content: center;
+}
+#contact div div{
+    background-color: #8FC33A;
+}
 @media only screen and (max-width: 1238px) {
 	#nav_menu{
 		display: none;
@@ -127,7 +137,7 @@ section div div h3{
     #home{
        width: 100%;
     }
-    section div{
+    #showcase div{
         display: block;
         width: 100%;
         margin: auto;
