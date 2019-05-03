@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="styles/slicknav.css">
     <link rel="stylesheet" href="styles/main.css">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="js/jquery.slicknav.min.js"></script>
     <script type="text/javascript">
@@ -71,39 +73,60 @@
         </section>
         <section id="contact">
             <div>
+                
+                <div>
+                
                 <form action="" method="GET">
+                        <h3>Contact</h3>
                     <label for="first_name">First name</label>
-                    <input type="text" name="" id="first_name">
+                    <input type="text" name="" id="first_name" required>
                     <label for="last_name">Last name</label>
-                    <input type="text" name="" id="last_name">
+                    <input type="text" name="" id="last_name" required>
 
                     <br>
 
                     <label for="email">Email</label>
-                    <input type="email" name="" id="email">
+                    <input type="email" name="" id="email" required>
                     
                     <br>
 
                     <label for="phone">Phone Number</label>
-                    <input type="tel" name="" id="phone">
+                    <input type="tel" name="" id="phone" required>
 
                     <br>
 
                     <label for="project_type">Project type</label>
-                    <select id="project_type">
+                    <select id="project_type" required>
+                        <option value="" disabled selected>Select your project type</option>
                         <option value="">Responsive Design</option>
                         <option value="">Web App</option>
                         <option value="">Mobile App</option>
                         <option value="">Other</option>
-                    </select>    
-            
+                    </select>
 
+                    <br>
+
+                    <label for="budget">Budget (optional)</label>
+                    <input type="text" id="budget">
+
+                    <br>
+                    <br>
+
+                    <label for="additional_details" style="display:flex">Additional Details</label>
+                    <textarea id="additional_details" cols="85" rows="8" required></textarea>
+
+                    <button type="submit">Submit</button>
+            
                 </form>
+            </div>
             </div>
         </section>
     </main>
     <footer>
-
+        <div id="social">
+            <a href="#top" class="fab fa-github"></a>
+            <a href="#top" class="fab fa-linkedin-in"></a>
+        </div>
     </footer>
 </body>
 </html>
