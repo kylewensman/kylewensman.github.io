@@ -144,11 +144,14 @@ footer{
 footer a{
     text-decoration: none;
 }
+footer h5{
+    margin-bottom: 0;
+}
 #social{
     width: 50%;
     margin: auto;
     text-align: center;
-    margin-top: 26px; /* separation of section and footer - need to apply to all sections and take off heading margin */
+    /* margin-top: 26px; */
     padding-top: 15px;
     padding-bottom: 10px;
 }
