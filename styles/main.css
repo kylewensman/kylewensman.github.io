@@ -73,6 +73,7 @@ header img{
 #home_about_img{
     width: 200px;
     height: 300px;
+    padding-bottom: 25px;
     float:left;
 }
 #home{
