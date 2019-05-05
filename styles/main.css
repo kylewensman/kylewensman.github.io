@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    background-color: white;
+    background-color: #00758F;
     font-family: 'Roboto', sans-serif;
 }
 h2{
@@ -32,7 +32,7 @@ header img{
     height: 70px;
     padding-top: 15px;
     text-align:center;
-    background-color: #6C648B;
+    background-color: #8B64B3;
 }
 #nav_menu ul{
     /* width: 100%; */
@@ -66,7 +66,7 @@ header img{
 
 /* Start - Styles for Home Page */
 #home_about{
-    background-color:#E3E3E3;
+    background-color: #DEB050;
     padding: 5px;
     min-height: 350px;
 }
@@ -86,7 +86,7 @@ header img{
 /* End - Styles for Home Page */
 #showcase{
     height: auto;
-    background-color:blanchedalmond;
+    background-color:#CC7C62;
 }
 #showcase div{
     display: flex;
@@ -112,7 +112,9 @@ header img{
 }
 #contact{
     height: auto;
-    background-color:wheat;
+    /* background-color: #2886B1; */
+    background-color: #FFC97D;
+    margin-bottom: 20px;
 }
 #contact div div h3{
     display: block;
@@ -123,7 +125,7 @@ header img{
     justify-content: center;
 }
 #contact div div{
-    background-color: #8FC33A;
+    background-color: #ABE8A5;
     padding: 25px 25px 75px 25px;
 }
 #additional_details{
@@ -139,7 +141,7 @@ footer{
     color: white;
 }
 .fa, .far, .fab{
-    color: #8FC33A;
+    color: #FFFF8E;
 }
 footer a{
     text-decoration: none;
@@ -174,6 +176,7 @@ footer h5{
     }
     #home{
        width: 100%;
+       /* margin-top: 0; */
     }
     #showcase div{
         display: block;

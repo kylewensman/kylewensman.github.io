@@ -41,6 +41,8 @@ body {
   background-color: white;
 }
 .col2 p{
+  padding-left: 25px;
+  padding-right: 25px;
   font-size: 1.2em
 }
 .col2 #page_title{
@@ -51,13 +53,22 @@ body {
 /* Start - Styles for header */
 /* Start - Styles for nav */
 header{
-  background-color: #829cd0}
+  background-color: #88BBC6
+}
+/* header img{
+  margin: auto;
+  display: block;
+  width: 60%;
+  height: auto;
+} */
 /*                              DELETED Header img */
 #nav_menu{
-  width: calc(100% - 255px);
+  /* width: calc(100% - 255px); */
   height: 70px;
   /* float: right;               Commented out*/
   padding-top: 15px;
+  text-align:center;
+  background-color: #8B64B3;
 }
 #nav_menu ul{
   width: 100%;
@@ -66,14 +77,15 @@ header{
   padding-left: 0;
 }
 #nav_menu ul li{
-  float: left;
+  /* float: left;*/
+  display: inline;
   padding-left: 15px;
 }
 #nav_menu ul li a{
   color: black;
   text-decoration: none;
   padding: 20px;
-  background-color: thistle;
+  background-color: #8FC33A;
 }
 #nav_menu ul li a:hover{
   color: blue;
